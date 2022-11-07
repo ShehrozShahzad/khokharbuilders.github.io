@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+    margin-left: 0%;
+}
+
+.logo img{
+    width: 33%;
+    border: 3px solid rgb(240, 122, 12);
+    border-radius: 50%;
+}
+.navbar{
+    background-color: rgb(240, 122, 12);
+}
+.backgroung{
+    background-color: rgba(0, 0, 0, 0.7) url('../img/kb.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
